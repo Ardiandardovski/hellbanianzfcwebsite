@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/hellbanianzfcwebsite/',
+  base: process.env.GITHUB_ACTIONS ? '/hellbanianzfcwebsite/' : '/',
   plugins: [react(), tailwindcss()],
 })
