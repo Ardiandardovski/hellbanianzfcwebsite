@@ -38,8 +38,7 @@ export default function App() {
           <div className="flex items-center gap-4">
 
             <img
-              src="/logo.png"
-              alt="Hellbanianz FC"
+src={`${import.meta.env.BASE_URL}logo.png`}              alt="Hellbanianz FC"
               className="w-14 h-14 object-contain drop-shadow-[0_0_20px_rgba(255,0,0,0.7)]"
             />
 
@@ -203,8 +202,7 @@ export default function App() {
             <div className="relative bg-white/5 border border-red-900/30 backdrop-blur-2xl rounded-[40px] p-10 shadow-[0_0_60px_rgba(255,0,0,0.15)]">
 
               <img
-                src="/logo.png"
-                alt="Hellbanianz FC"
+                  src={`${import.meta.env.BASE_URL}logo.png`}                alt="Hellbanianz FC"
                 className="w-[420px] object-contain drop-shadow-[0_0_40px_rgba(255,0,0,0.7)]"
               />
 
@@ -245,7 +243,7 @@ export default function App() {
             <div className="bg-black border border-red-900 rounded-[40px] p-10 shadow-[0_0_60px_rgba(255,0,0,0.2)]">
 
               <img
-                src="/logo.png"
+                src={`${import.meta.env.BASE_URL}logo.png`}
                 alt="Hellbanianz Logo"
                 className="w-[420px] object-contain"
               />
@@ -368,7 +366,7 @@ export default function App() {
           <div className="flex items-center gap-5">
 
             <img
-              src="/logo.png"
+              src={`${import.meta.env.BASE_URL}logo.png`}
               alt="Hellbanianz FC"
               className="w-14 h-14 object-contain"
             />
